@@ -13,8 +13,8 @@ namespace TestDocumentDB
     class DBRepo
     {
         private DocumentClient client;
-        private const string EndpointUrl = "https://gunitdev.documents.azure.com:443/";
-        private const string AuthorizationKey = "1dGzcVrPWFmnOCXjtQPg81zhxhTdvFoOCQPf9byJBBZIAey3d2UbKZ3vcSg+10py/Ipv+f7nemasIwAVc8On9A==";
+        private const string EndpointUrl = "";
+        private const string AuthorizationKey = "";
 
         public DBRepo()
         {
