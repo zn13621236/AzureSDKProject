@@ -52,6 +52,7 @@
     <Compile Include="DBClientFactory.cs" />
     <Compile Include="DBConfig.cs" />
     <Compile Include="DBClient.cs" />
+    <Compile Include="DBTemplate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
