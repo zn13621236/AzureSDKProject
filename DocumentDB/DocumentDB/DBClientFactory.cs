@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Azure.Documents;
+using Microsoft.Azure.Documents.Client;
 
 namespace DocumentDB
 {
     public class DBClientFactory
     {
-
-    
-
+        public static DBClientTemplate<DocumentClient, Database> GetDocumentDbClient(IConfig config)
+        {
+            return new DocumentDBClient(config);
+        }
     }
 }

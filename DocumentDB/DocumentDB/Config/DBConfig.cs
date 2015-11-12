@@ -25,7 +25,7 @@ namespace DocumentDB
         {
             var value = ConfigurationManager.AppSettings[key];
             return value == null ? defaultValue : (T) Convert.ChangeType(value, typeof (T));
-                //Conversion.ConvertTo<T>(value);
+            //Conversion.ConvertTo<T>(value);
         }
     }
 
